@@ -3,6 +3,8 @@
 	box-sizing: border-box;
 }
 body{
+	  font-size: 18px;
+	  font-family: "Roboto", helvetica, sans-serif;
 	
 	background-color: #2196f3;
 	text-align: center;
@@ -16,6 +18,11 @@ form{
 	width: 400px;
 	padding-left: 40px;
 padding-right: 40px;
+}
+fieldset{
+	padding: 0;
+	border:0;
+	margin: 0;
 }
 img{
 	margin-top: 50px;
@@ -40,9 +47,12 @@ form input{
 }
 
 form button{
-	
+	border-style: none;
 	background-color: green;
 
+}
+form button:hover{
+	background-color: lightgreen;
 }
 body form label{
 	text-align: left;
