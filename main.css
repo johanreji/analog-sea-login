@@ -1,0 +1,59 @@
+
+*{
+	box-sizing: border-box;
+}
+body{
+	
+	background-color: #2196f3;
+	text-align: center;
+}
+form{
+	margin-top: 15px;
+	padding: 30px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: white;
+	width: 400px;
+	padding-left: 40px;
+padding-right: 40px;
+}
+img{
+	margin-top: 50px;
+	height: 35px;
+
+}
+form input, form button{
+	margin-top: 15px;
+	margin-bottom: 15px;
+	width: 320px;
+	
+	padding: 15px;
+	height: 55px;
+
+}
+form input{
+	
+	border: 2px solid grey;
+	border-radius: 5px;
+	
+
+}
+
+form button{
+	
+	background-color: green;
+
+}
+body form label{
+	text-align: left;
+}
+ form a{
+ 	color: grey;
+
+ }
+
+ a{
+ 	display: block;
+ 	margin-top: 10px;
+ 	color: white;
+ }
